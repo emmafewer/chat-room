@@ -1,0 +1,24 @@
+/ChatRoom.sln
+# file extensions to ignore
+*.bak
+*.iml
+*.user
+# directories to ignore
+.vs/
+.vscode/
+_ReSharper.Caches/
+bin/
+obj/
+packages/
+
+# local appsettings in any directory should be ignored
+ChatRoom.appsettings.Development.json
+ChatRoom.appsettings.json
+
+.idea
+.env
+.git
+docker-compose.yml
+
+.DS_Store
+/chat-room/ChatRoom/Properties/launchSettings.json
