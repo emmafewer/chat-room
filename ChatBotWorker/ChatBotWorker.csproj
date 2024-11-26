@@ -5,9 +5,16 @@
         <Nullable>enable</Nullable>
         <ImplicitUsings>enable</ImplicitUsings>
         <UserSecretsId>dotnet-ChatBotWorker-6e46a172-fb8b-4892-9270-fc962b275429</UserSecretsId>
+        <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.0-rc.2.24473.5"/>
+    </ItemGroup>
+
+    <ItemGroup>
+      <Content Include="..\.dockerignore">
+        <Link>.dockerignore</Link>
+      </Content>
     </ItemGroup>
 </Project>

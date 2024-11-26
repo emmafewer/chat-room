@@ -1,0 +1,9 @@
+﻿services:
+  chatbotworker:
+    image: chatbotworker
+    build:
+      context: .
+      dockerfile: ChatBotWorker/Dockerfile
+    ports:
+      - "13000:13000"
+

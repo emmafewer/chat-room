@@ -14,7 +14,7 @@ public class TcpServer
     public async Task StartServer()
     {
         var port = 13000;
-        var hostAddress = IPAddress.Parse("127.0.0.1");
+        var hostAddress = IPAddress.Parse("0.0.0.0");
         _tcpListener = new TcpListener(hostAddress, port);
         _tcpListener.Start();
         Console.WriteLine($"Listening on port {port}");
